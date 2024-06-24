@@ -77,6 +77,10 @@ main section p {
     padding-left: 2rem;
     width: 100%;
     background-color: whitesmoke;
+    transition-duration: .2s;
+}
+#input-container-01 input:hover {
+    background-color: rgb(210, 210, 210);
 }
 #input-container-01 input::placeholder {
     color: rgba(0, 0, 0, 0.5);
@@ -115,6 +119,10 @@ main section p {
     border-radius: 999rem;
     padding-left: 2rem;
     width: 100%;
+    transition-duration: .2s;
+}
+#input-container-02 input:hover {
+    background-color: rgb(210, 210, 210);
 }
 #input-container-02 input::placeholder {
     color: rgba(0, 0, 0, 0.5);

@@ -23,19 +23,19 @@
         <section>
             <h1>login</h1>
             <p>Seja bem-vindo(a) novamente! Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
-            <form action="script.js" method="get" autocomplete="on">
+            <form action="script.js" method="post" autocomplete="on">
                 <div id="input-container-01">
                     <span id="user-icon" class="material-symbols-outlined">account_circle</span>
-                    <input type="email" placeholder="Email" autocomplete="email">
+                    <input required name="email" type="email" placeholder="Email" autocomplete="email">
                 </div>
 
                 <div id="input-container-02">
                     <span id="password-icon" class="material-symbols-outlined">vpn_key</span>
-                    <input type="password" placeholder="Senha" autocomplete="password">
+                    <input required name="password" type="password" placeholder="Senha" autocomplete="password">
                 </div>
 
                 <input id="button-submit" type="submit">
-                
+
                 <button id="button-forgot-password">
                     Esqueci a senha
                     <span id="email-icon" class="material-symbols-outlined">email</span>
