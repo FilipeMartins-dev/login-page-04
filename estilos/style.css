@@ -24,7 +24,7 @@ main {
     display: flex;
     flex-direction: column;
     width: 85vw;
-    height: 80vh;
+    height: 85vh;
     border-radius: 2rem;
     box-shadow: 6px 12px 24px rgba(0, 0, 0, .3);
 }
@@ -64,22 +64,21 @@ main section p {
     font-size: 3.5rem;
     line-height: 0px;
     padding-left: .4rem;
-    
 }
 #input-container-01 input {
     font-family: monospace;
     font-size: 1.6rem;
-    color: whitesmoke;
+    color: black;
     border: none;
-    margin: .4rem;
-    height: 80%;
+    margin: .3rem;
+    height: 87%;
     border-radius: 999rem;
     padding-left: 2rem;
     width: 100%;
-    background-color: rgb(187, 88, 124);
+    background-color: whitesmoke;
 }
 #input-container-01 input::placeholder {
-    color: whitesmoke;
+    color: black;
     letter-spacing: .1rem;
     font-size: 1.6rem;
     line-height: 0;
@@ -104,19 +103,19 @@ main section p {
     padding-right: .2rem;
 }
 #input-container-02 input {
-    color: whitesmoke;
+    color: black;
     font-family: monospace;
     font-size: 1.6rem;
-    background-color: rgb(187, 88, 124);
+    background-color: whitesmoke;
     border: none;
-    margin: .4rem;
-    height: 80%;
+    margin: .3rem;
+    height: 85%;
     border-radius: 999rem;
     padding-left: 2rem;
     width: 100%;
 }
 #input-container-02 input::placeholder {
-    color: whitesmoke;
+    color: black;
     letter-spacing: .1rem;
     font-size: 1.6rem;
     line-height: 0;
@@ -128,12 +127,17 @@ main section p {
     height: 4.5rem;
     border-radius: 999rem;
     border: none;
-    background-color: rgb(160, 18, 123);
+    background-color: rgb(88, 42, 64);
     color: white;
     letter-spacing: .2rem;
     font-size: 1.5rem;
     margin-bottom: .5em;
     cursor: pointer;
+    transition-property: all;
+    transition-duration: .2s;
+}
+#button-submit:hover {
+    background-color: rgb(144, 33, 74);
 }
 #button-forgot-password {
     display: block;
@@ -141,7 +145,7 @@ main section p {
     height: 4.5rem;
     border-radius: 999rem;
     border: none;
-    background-color: rgb(160, 18, 123);
+    background-color: rgb(100, 50, 74);
     color: white;
     letter-spacing: .2rem;
     font-size: 1.5rem;
@@ -149,6 +153,11 @@ main section p {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    transition-property: all;
+    transition-duration: .2s;
+}
+#button-forgot-password:hover {
+    background-color: rgb(144, 33, 74);
 }
 #email-icon {
     padding-left: 1rem;
