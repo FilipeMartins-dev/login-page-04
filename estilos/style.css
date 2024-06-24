@@ -52,7 +52,8 @@ main section p {
 #input-container-01 {
     background-color: rgb(144, 33, 74);
     display: flex;
-    width: 100%;
+    width: 80%;
+    margin: auto;
     justify-content: space-between;
     align-items: center;
     height: 4.5rem;
@@ -78,7 +79,7 @@ main section p {
     background-color: whitesmoke;
 }
 #input-container-01 input::placeholder {
-    color: black;
+    color: rgba(0, 0, 0, 0.5);
     letter-spacing: .1rem;
     font-size: 1.6rem;
     line-height: 0;
@@ -88,7 +89,8 @@ main section p {
 #input-container-02 {
     background-color: rgb(144, 33, 74);
     display: flex;
-    width: 100%;
+    width: 80%;
+    margin: auto;
     justify-content: space-between;
     align-items: center;
     height: 4.5rem;
@@ -115,7 +117,7 @@ main section p {
     width: 100%;
 }
 #input-container-02 input::placeholder {
-    color: black;
+    color: rgba(0, 0, 0, 0.5);
     letter-spacing: .1rem;
     font-size: 1.6rem;
     line-height: 0;
@@ -123,7 +125,8 @@ main section p {
 
 #button-submit {
     display: block;
-    width: 100%;
+    width: 80%;
+    margin: auto;
     height: 4.5rem;
     border-radius: 999rem;
     border: none;
@@ -141,7 +144,8 @@ main section p {
 }
 #button-forgot-password {
     display: block;
-    width: 100%;
+    width: 80%;
+    margin: auto;
     height: 4.5rem;
     border-radius: 999rem;
     border: none;
