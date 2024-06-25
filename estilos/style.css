@@ -27,6 +27,8 @@ main {
     height: 80vh;
     border-radius: 2rem;
     box-shadow: 6px 12px 24px rgba(0, 0, 0, .3);
+
+    transition: width .3s, height .2s;
 }
 
 main section {
