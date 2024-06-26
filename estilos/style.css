@@ -52,7 +52,8 @@ main section p {
 
 /* INPUT EMAIL */
 #input-container-01 {
-    background-color: rgb(144, 33, 74);
+    background: linear-gradient(180deg, rgb(185, 71, 113), rgb(144, 33, 74));
+    /* background-color: rgb(144, 33, 74); */
     display: flex;
     width: 80%;
     margin: auto;
@@ -93,7 +94,8 @@ main section p {
 
 /* INPUT SEHA */
 #input-container-02 {
-    background-color: rgb(144, 33, 74);
+    background: linear-gradient(180deg, rgb(185, 71, 113), rgb(144, 33, 74));
+    /* background-color: rgb(144, 33, 74); */
     display: flex;
     width: 80%;
     margin: auto;
@@ -117,7 +119,7 @@ main section p {
     background-color: whitesmoke;
     border: none;
     margin: .3rem;
-    height: 87%;
+    height: 85%;
     border-radius: 999rem;
     padding-left: 2rem;
     width: 100%;
@@ -126,12 +128,17 @@ main section p {
 #input-container-02 input:hover {
     background-color: rgb(210, 210, 210);
 }
+#input-container-02 input:focus-within {
+    background-color: whitesmoke;
+}
 #input-container-02 input::placeholder {
     color: rgba(0, 0, 0, 0.5);
     letter-spacing: .1rem;
     font-size: 1.6rem;
     line-height: 0;
 }
+
+/* SUBMIT BUTTON*/
 
 #button-submit {
     display: block;
@@ -140,18 +147,24 @@ main section p {
     height: 4.5rem;
     border-radius: 999rem;
     border: none;
+    /* background: linear-gradient(180deg, rgb(124, 67, 94), rgb(100, 50, 74)); */
     background-color: rgb(88, 42, 64);
+    /* box-shadow: inset 0 0 4px 2px rgba(255, 255, 255, .25); */
     color: white;
     letter-spacing: .2rem;
     font-size: 1.5rem;
     margin-bottom: .5em;
     cursor: pointer;
     transition-property: all;
-    transition-duration: .2s;
+    transition-duration: .15s;
 }
 #button-submit:hover {
     background-color: rgb(144, 33, 74);
+    letter-spacing: .25rem;
 }
+
+/* FORGOT PASSWORD BUTTON */
+
 #button-forgot-password {
     display: block;
     width: 80%;
@@ -159,6 +172,7 @@ main section p {
     height: 4.5rem;
     border-radius: 999rem;
     border: none;
+    /* background: linear-gradient(180deg, rgb(124, 67, 94), rgb(100, 50, 74)); */
     background-color: rgb(100, 50, 74);
     color: white;
     letter-spacing: .2rem;
@@ -168,10 +182,11 @@ main section p {
     align-items: center;
     cursor: pointer;
     transition-property: all;
-    transition-duration: .2s;
+    transition-duration: .15s;
 }
 #button-forgot-password:hover {
     background-color: rgb(144, 33, 74);
+    letter-spacing: .23rem;
 }
 #email-icon {
     padding-left: 1rem;
